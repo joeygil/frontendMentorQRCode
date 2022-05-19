@@ -7,6 +7,10 @@ body {
     font-family: 'Outfit';
 }
 
+h1 {
+    font-size: 20px;
+}
+
 #container {
     background-color: white;
     width: 350px;
@@ -29,8 +33,14 @@ body {
 
 #qrcode img {
     width: 300px;
+    display: flex;
     margin: auto;
     border-radius: 20px;
+}
+
+#words p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
 
 
